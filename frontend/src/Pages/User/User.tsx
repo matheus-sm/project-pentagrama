@@ -63,15 +63,15 @@ export function ListUser() {
     <Container>
       <Form onSubmit={handleSubmit} className="mt-5">
         <Form.Group className="mb-3">
-          <Form.Label htmlFor="name">Nome de Usuário</Form.Label>
+          <Form.Label htmlFor="name">Nome de Usuário:</Form.Label>
           <Form.Control id="name" placeholder="Digite o nome de usuário" value={name} onChange={event => setName(event.target.value)} />
         </Form.Group>
         <Form.Group className="mb-3">
-          <Form.Label htmlFor="email">E-mail</Form.Label>
+          <Form.Label htmlFor="email">E-mail:</Form.Label>
           <Form.Control id="email" placeholder="Digite seu e-mail" type="email" value={email} onChange={event => setEmail(event.target.value)} />
         </Form.Group>
         <Form.Group className="mb-3">
-          <Form.Label htmlFor="password">Senha</Form.Label>
+          <Form.Label htmlFor="password">Senha:</Form.Label>
           <Form.Control id="password" placeholder="Digite sua senha" type="password" value={password} onChange={event => setPassword(event.target.value)} />
         </Form.Group>
         <Button type="submit">Cadastar</Button>

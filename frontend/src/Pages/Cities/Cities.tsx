@@ -61,15 +61,15 @@ export function ListCities() {
     <Container>
       <Form onSubmit={handleSubmit} className="mt-5">
         <Form.Group className="mb-3">
-          <Form.Label htmlFor="name">Nome</Form.Label>
+          <Form.Label htmlFor="name">Nome:</Form.Label>
           <Form.Control id="name" placeholder="Digite seu nome" value={city_name} onChange={event => setCityName(event.target.value)} />
         </Form.Group>
         <Form.Group className="mb-3">
-          <Form.Label htmlFor="state">Estado</Form.Label>
+          <Form.Label htmlFor="state">Estado:</Form.Label>
           <Form.Control id="state" placeholder="Digite seu nome" value={state} onChange={event => setState(event.target.value)} />
         </Form.Group>
         <Form.Group className="mb-3">
-          <Form.Label htmlFor="foundation_data">Data fundação</Form.Label>
+          <Form.Label htmlFor="foundation_data">Data fundação:</Form.Label>
           <Form.Control id="foundation_data" placeholder="Digite seu nome" type="date" value={foundation_date} onChange={event => setFoundationDate(event.target.value)} />
         </Form.Group>
         <Button type="submit">Cadastar</Button>

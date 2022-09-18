@@ -19,7 +19,7 @@ function Nav() {
             <Link className="PageSecondary" to="/district">Cadastro de bairros</Link>
           </li>
           <li>
-            <Link className="PageSecondary" to="/report">Relatorio</Link>
+            <Link className="PageSecondary" to="/report">Relatório</Link>
           </li>
         </ul>
         <ul className="MenuAsideContainer">

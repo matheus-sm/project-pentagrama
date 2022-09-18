@@ -53,31 +53,31 @@ export function ListReport() {
         <Row>
           <Col xs={12} sm={6} md={3} lg={2} xl={2}>
             <Form.Group className="mb-3">
-              <Form.Label htmlFor="city_name">Nome</Form.Label>
+              <Form.Label htmlFor="city_name">Nome:</Form.Label>
               <Form.Control id="city_name" placeholder="Cidade" value={city_name} onChange={event => setCityName(event.target.value)} />
             </Form.Group>
           </Col>
           <Col xs={12} sm={6} md={3} lg={2} xl={2}>
             <Form.Group className="mb-3">
-              <Form.Label htmlFor="district">Bairro</Form.Label>
+              <Form.Label htmlFor="district">Bairro:</Form.Label>
               <Form.Control id="district" placeholder="Bairro" value={district} onChange={event => setDistrict(event.target.value)} />
             </Form.Group>
           </Col>
           <Col xs={12} sm={6} md={3} lg={2} xl={2}>
             <Form.Group className="mb-3">
-              <Form.Label htmlFor="start_date">Data de início</Form.Label>
+              <Form.Label htmlFor="start_date">Data de início:</Form.Label>
               <Form.Control id="start_date" placeholder="Digite a data de início" type="date" value={start_date} onChange={event => setStartDate(event.target.value)} />
             </Form.Group>
           </Col>
           <Col xs={12} sm={6} md={3} lg={2} xl={2}>
             <Form.Group className="mb-3">
-              <Form.Label htmlFor="end_date">Data Final</Form.Label>
+              <Form.Label htmlFor="end_date">Data Final:</Form.Label>
               <Form.Control id="end_date" placeholder="Digite a data final" type="date" value={end_date} onChange={event => setEndDate(event.target.value)} />
             </Form.Group>
           </Col>
           <Col xs={12} sm={6} md={3} lg={2} xl={2}>
             <div style={{ display: "flex", alignItems: "center", height: "100%" }}>
-              <Button type="submit">Pesquisar</Button>
+              <Button type="submit">Pesquisar:</Button>
             </div>
           </Col>
         </Row>
