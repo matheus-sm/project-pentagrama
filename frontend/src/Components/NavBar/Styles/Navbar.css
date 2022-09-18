@@ -1,0 +1,54 @@
+.MainPage {
+    color: white;
+    text-decoration: none;
+}
+
+.MainPage:hover {
+    color: white;
+    text-decoration: none;
+}
+
+.PageSecondary {
+    color: white;
+    text-decoration: none;
+}
+
+.PageSecondary:hover {
+    color: white;
+    text-decoration: none;
+}
+
+.Logout {
+    color: white;
+    text-decoration: none;
+}
+
+.Logout:hover {
+    color: red;
+    text-decoration: none;
+}
+
+.NavbarContainer {
+    display: flex;
+}
+
+.MenuContainer {
+    display: flex;
+    align-items: center;
+    list-style: none;
+}
+
+.MenuContainer,
+.MenuAsideContainer {
+    padding: 0;
+    margin: 0;
+}
+
+.MenuContainer li+li {
+    margin-left: 20px;
+}
+
+.MenuContainer li a,
+.MenuAsideContainer li a {
+    font-size: 20px;
+}

@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200&display=swap');
+
+.ContainerEnter {
+  background-color: #fff;
+  background-repeat: no-repeat;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: 'Padding', sans-serif;
+}
+
+.FormControl {
+  background-color: #f7f7f7;
+  background-color: #f7f7f7;
+  width: 300px;
+  max-width: 350px;
+  min-height: 40vh;
+  padding: 2rem;
+  box-shadow: 5px 5px 5px 5PX rgba(0, 0, 0, 0.1);
+  border-radius: 7px;
+  display: grid;
+}
+
+button {
+  max-height: 40px;
+}
